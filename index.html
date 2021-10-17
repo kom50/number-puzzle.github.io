@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <!-- our css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap css file  -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+    <title>Number Puzzle Game</title>
+</head>
+
+<body>
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <div class="main col-12 col-md-10 col-lg-8 col-xl-6 col-xxl-12 bg-white mx-auto ">
+                <!-- title start -->
+                <div class="title ">
+                    <h2 class="text">Number Puzzle Game</h2>
+                </div>
+                <!-- title end -->
+                <!-- Board Design start -->
+                <div class="board">
+                    <div class="left game_level">
+                        Game Level : 1
+                    </div>
+                    <div class="right move">
+                        Move : 0
+                    </div>
+                </div>
+                <!-- Board Design end -->
+                <!-- box start -->
+                <div class="container mx-auto m">
+                    <div class="box_container mx-auto ">
+                        <div class="box ">1</div>
+                        <div class="box ">2</div>
+                        <div class="box ">3</div>
+                        <div class="box ">4</div>
+                        <div class="box ">5</div>
+                        <div class="box ">6</div>
+                        <div class="box ">7</div>
+                        <div class="box ">8</div>
+                        <!-- <div class="box "></div> -->
+                    </div>
+                </div>
+                <div class="refresh_btn">
+                    <img src='images/refresh.png' alt='refresh' title='Refresh'>
+                </div>
+                <!-- box end -->
+                <!-- win box start -->
+                <div class="win_box">
+                    <p class="winner_text"></p>
+                </div>
+                <!-- win box end -->
+
+                <!-- button container start-->
+                <div class="btn_container">
+                    <button class="btn btn-info text-white restart">Restart</button>
+                    <button class="btn btn-info text-white next">Next</button>
+                </div>
+                <!-- button container end -->
+            </div>
+        </div>
+    </div>
+
+    <!-- our js file -->
+    <script src='script.js '></script>
+    <!-- bootstrap js file link -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+</html>
